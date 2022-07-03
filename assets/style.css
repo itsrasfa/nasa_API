@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fcfcfc;
+}
+
+body {
+  background-image: url('/assets/img/galaxy-night.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.5rem;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid #fcfcfc;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .95rem;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+form {
+  width: 100%;
+  max-width: 22rem;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdfdfd;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  color: #1C1C1F;
+  font-size: .95rem;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input::placeholder {
+  color: #1C1C1F;
+}
+
+button {
+  width: 100%;
+  max-width: 50px;
+  height: 45px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+}
+
+.fa-solid {
+  color: #1C1C1F;
+}
+
+.fa-solid:hover {
+  color: #38647B;
+}
